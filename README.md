@@ -7,3 +7,6 @@
  
 ## unzip 'model/generator.7z.001~generator.7z.008' could acquire pre-trained weight for the network.
     Please unzip the items to the folder 'model/'
+
+## Usage:
+    run 'run_SFs_segmentator.py'
