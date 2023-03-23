@@ -10,3 +10,6 @@
 
 ## Usage:
     run 'run_SFs_segmentator.py'
+
+## Training data
+    unzip the files in folder 'dataset'
