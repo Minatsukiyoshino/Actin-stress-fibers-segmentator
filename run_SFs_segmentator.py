@@ -36,6 +36,7 @@ def main():
     G = U2NET(in_ch=input_dim, out_ch=output_dim)
     G.to(device)
     G.load_state_dict(torch.load(model_dir + 'generator.pkl'))
+    G.eval()
 
     for i, (input, target) in enumerate(test_data_loader):
         # input & target image data
